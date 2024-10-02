@@ -1,0 +1,108 @@
+body {
+    background-color: indigo;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+.quiz-app{
+    display: flex;
+    flex-direction: column;
+    background-color: #81d7e3;
+    width: 80%;
+    margin: 5%;
+    height: 85%;
+    box-shadow: 1px 3px 2px gray;
+    border-radius: 12px;
+    padding: 1.5%;
+    color: indigo;
+    float: inline-start;
+}
+
+.quiz-app h1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 2px 3.2px 0.8px orange;
+}
+
+.quiz-header {
+    text-align: left;
+    border-bottom: 3px solid midnightblue;
+    padding-bottom: 2%;
+
+
+}
+
+.quiz-header h1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 2px 3.2px 0.8px orange;
+}
+.quiz-body h1{
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 2px 3.2px 0.8px orange;
+}
+
+.quiz-body{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 5%; */
+    height: 80%;
+    text-align: center;
+    /* align-items: center; */
+}
+.options button{
+    padding: 0.5%;
+    color: aqua;
+    font-size: x-large;
+    /* margin-top: 3%; */
+    width: 90%;
+    height:55%;
+    border-radius: 8px;
+    background-color: midnightblue;
+}
+.quiz-footer{
+    margin-top: 3%;
+    padding-top: 1rem;
+    border-top: 3px solid midnightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 1.5px 1px 1.8px gray;
+    /* font-size: 80%; */
+}
+
+.next{
+    display: flexbox;
+    box-shadow: 1.5px 1px 2px midnightblue;
+    padding: 1%;
+    width: 12%;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: aqua;
+    font-size: 80%;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    margin-top: 2.5%;
+}
+.options .correctAnswer{
+    background-color: blueviolet;
+    color: aqua;
+}
+
+.options .wrongAnswer{
+    background-color: darkgray;
+    color: midnightblue;
+}
+
+@media(max-width: 700px){
+   .quiz-app{
+    width: 100vw;
+   }     
+}
