@@ -22,7 +22,7 @@ export const questions = [
     {id: 3,
         question: "Which of following is a classification technique?",
         options: ["linear regression",
-            "logistic rgression",
+            "logistic regression",
             "k nearest neighbour",
             "tensorflow"
         ],
@@ -77,7 +77,7 @@ export const questions = [
         answer: "logistic regression"
     },
     {id: 9,
-        question: "which python library is used to construct arrays ans matrices?",
+        question: "which python library is used to construct arrays and matrices?",
         options: ["pandas",
             "numpy",
             "seaborn",
