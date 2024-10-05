@@ -37,7 +37,7 @@ export default function Home(){
     {showResult? (
     <div className="quiz-app">
     {score>=0.8*questions.length? (<h1 className="excellent">congratulations: you have secured {score} marks out of {questions.length}</h1>):
-    score>=0.5*questions.length? (<h1 className="pass">well: your secured marks are {score} out of {questions.length}</h1>): (<h1 className="fail">good luck in future: you have secured {score} out of {questions.length}</h1>)
+    score>=0.5*questions.length? (<h1 className="pass">well: your secured marks are {score} out of {questions.length}</h1>): (<h1 className="fail">good luck in future: you have secured {score} marks out of {questions.length}</h1>)
     }
   </div>
     ): (
