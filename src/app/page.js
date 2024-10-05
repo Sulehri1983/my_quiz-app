@@ -50,7 +50,7 @@ export default function Home(){
      <div className="options">
      {question.options.map((option)=> {
        return (
-         <button className={showAnswer&&option===question.answer? "correctAnswer": showAnswer&&question.answer !== question.answer? "wrongAnswer": ""} onClick={() => {handleOptionSelect(option)}}>{option}</button>
+         <button className={showAnswer&&option===question.answer? "correctAnswer": showAnswer&&option===selectedOption? "wrongAnswer": ""} onClick={() => {handleOptionSelect(option)}}>{option}</button>
        )
      }
        )}
