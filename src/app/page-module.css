@@ -96,9 +96,17 @@ body {
     color: aqua;
 }
 
+.options .correctAnswer:after{
+    content: ' \2705';
+}
+
 .options .wrongAnswer{
-    background-color: darkgray;
+    background-color: #253f94;
     color: midnightblue;
+}
+
+.options .wrongAnswer:after{
+    content: ' \274E';
 }
 
 @media(max-width: 700px){
