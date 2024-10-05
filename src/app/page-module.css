@@ -1,9 +1,13 @@
 body {
     background-color: indigo;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    
 }
+
+h1 {
+    text-align: center;
+}
+
+
 .quiz-app{
     display: flex;
     flex-direction: column;
@@ -18,12 +22,12 @@ body {
     float: inline-start;
 }
 
-.quiz-app h1{
+/* .{
     font-weight: bolder;
     text-align: center;
     font-size: xx-large;
     text-shadow: 2px 3.2px 0.8px orange;
-}
+} */
 
 .quiz-header {
     text-align: left;
@@ -71,7 +75,7 @@ body {
     justify-content: space-between;
     align-items: center;
     text-shadow: 1.5px 1px 1.8px gray;
-    /* font-size: 80%; */
+    font-size: 120%;
 }
 
 .next{
@@ -107,6 +111,28 @@ body {
 
 .options .wrongAnswer:after{
     content: ' \274E';
+}
+
+.excellent::before{
+    color: red;
+    content: ' \2764';
+    font-size: 120%;
+    padding: 1%;
+}
+
+.pass::before{
+    color: orange;
+    content: ' \2714';
+    font-size: 120%;
+    padding: 1%;
+}
+
+.fail:before{
+    color: orange; 
+    content: ' \263B';
+    font-size: 150%;
+    font-weight: bolder;
+    padding: 1%;
 }
 
 @media(max-width: 700px){
